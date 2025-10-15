@@ -1,0 +1,16 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.env
+*.log
+
+# Ignore ChromaDB and uploaded PDFs (local data)
+chroma_db/
+uploaded_pdfs/
+
+# Ignore OS and IDE files
+.DS_Store
+.vscode/
+
+# ...existing code...
